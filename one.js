@@ -10,7 +10,7 @@ const bip65 = require('bip65')
 
 //輸入私鑰，教學用，請勿隨意公開私鑰
 
-var privateKey = "cPAQ1xTHtbXBSzuHzK3nXZzLWc16pNdRctU43h7h9q2ZncD9Alas";
+var privateKey = "cNcvQphXWjAJ365Y8Tuhti5a6fCh9ftpR3GScZs5vdidBwQqpxT4";
 
 //產生公鑰跟私鑰
 const keyPair = bitcoin.ECPair.fromWIF(privateKey,regtest);
